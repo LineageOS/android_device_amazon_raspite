@@ -8,6 +8,9 @@ DEVICE_PATH := device/amazon/raspite
 # Inherit from the common tree
 include device/amazon/mt8169-common/BoardConfigCommon.mk
 
+# Display
+TARGET_SCREEN_DENSITY := 213
+
 # Partitions
 BOARD_SUPER_PARTITION_SIZE := 4005560320
 
