@@ -6,6 +6,9 @@
 # Inherit from the common tree
 $(call inherit-product, device/amazon/mt8169-common/mt8169.mk)
 
+# Setup dalvik vm configs
+$(call inherit-product, frameworks/native/build/tablet-7in-xhdpi-2048-dalvik-heap.mk)
+
 # Display
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 800
