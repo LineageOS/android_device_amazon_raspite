@@ -93,5 +93,11 @@ vendor/lib/libteec.so
 vendor/lib/optee_armtz/2bc36ea4-80bc-44d9-a63d-356f79701060.ta
 vendor/lib64/libteec.so
 
+# Touch
+vendor/firmware/goodix_9xx_firmware.bin
+vendor/firmware/goodix_9xx_tg_firmware.bin
+vendor/firmware/goodix_cfg_group.bin
+vendor/firmware/goodix_firmware.bin
+
 # WMT
 vendor/firmware/WMT_SOC.cfg
