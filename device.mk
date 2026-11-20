@@ -17,6 +17,10 @@ TARGET_SCREEN_WIDTH := 800
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/kernel/modules.load.recovery:$(TARGET_COPY_OUT_RECOVERY)/root/lib/modules/modules.load.recovery
 
+# Overlay
+PRODUCT_PACKAGES += \
+    SettingsProviderOverlayRaspite
+
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 30
 
