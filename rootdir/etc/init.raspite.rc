@@ -1,0 +1,8 @@
+#
+# SPDX-FileCopyrightText: The LineageOS Project
+# SPDX-License-Identifier: Apache-2.0
+#
+
+on late-fs && property:ro.boot.hardware.sku=sbump && property:ro.boot.hardware.ram4gb=1
+    # Memory
+    write /proc/sys/vm/min_free_kbytes 46616

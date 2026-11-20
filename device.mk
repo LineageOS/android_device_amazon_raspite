@@ -25,6 +25,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/sku/odm,$(TARGET_COPY_OUT_ODM)/etc/prop)
 
+# Rootdir
+PRODUCT_PACKAGES += \
+    fstab.enableswap-base \
+    init.raspite.rc
+
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 30
 

@@ -1,1 +1,2 @@
 ro.product.odm.model=KFRAWI
+ro.vendor.zram.fstab=/vendor/etc/fstab.enableswap-base
