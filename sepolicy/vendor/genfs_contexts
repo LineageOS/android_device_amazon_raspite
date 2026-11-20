@@ -1,0 +1,21 @@
+# Input
+genfscon sysfs /devices/platform/11008000.i2c1/i2c-1/1-0014/gesture_wakeup                                        u:object_r:sysfs_tap_to_wake:s0
+
+# Power supply
+genfscon sysfs /devices/platform/1000d000.pwrap/1000d000.pwrap:mt6357/mt6357-gauge                                u:object_r:sysfs_batteryinfo:s0
+genfscon sysfs /devices/platform/1100d000.i2c6/i2c-6/6-0061/power_supply                                          u:object_r:sysfs_batteryinfo:s0
+
+# RTC
+genfscon sysfs /devices/platform/1000d000.pwrap/1000d000.pwrap:mt6357/mt6357-rtc/rtc                              u:object_r:sysfs_rtc:s0
+
+# Wakeup
+genfscon sysfs /devices/platform/1000d000.pwrap/1000d000.pwrap:mt6357/mt6357-gauge/power_supply/battery/wakeup    u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/1000d000.pwrap/1000d000.pwrap:mt6357/mt6357-gauge/power_supply/mtk-gauge/wakeup  u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/1000d000.pwrap/1000d000.pwrap:mt6357/mt6357-rtc/rtc/rtc0/wakeup                  u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/1000d000.pwrap/1000d000.pwrap:mt6357/mt6357-rtc/wakeup                           u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/1000d000.pwrap/1000d000.pwrap:mt6357/mt635x-auxadc/wakeup                        u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/1100a000.spi/spi_master/spi0/spi0.0/wakeup                                       u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/1100d000.i2c6/i2c-6/6-0061/power_supply/Wireless/wakeup                          u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/1100d000.i2c6/i2c-6/6-0061/wakeup                                                u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/1a038000.cam1_inner/wakeup                                                       u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/adsp_pcm/wakeup                                                                  u:object_r:sysfs_wakeup:s0
