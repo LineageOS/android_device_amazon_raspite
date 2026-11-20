@@ -20,7 +20,8 @@ PRODUCT_COPY_FILES += \
 # Overlay
 PRODUCT_PACKAGES += \
     FrameworksResOverlayRaspite \
-    SettingsProviderOverlayRaspite
+    SettingsProviderOverlayRaspite \
+    SystemUIOverlayRaspite
 
 # Power
 PRODUCT_COPY_FILES += \
