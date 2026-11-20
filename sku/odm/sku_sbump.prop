@@ -1,0 +1,1 @@
+import /odm/etc/prop/sku_sbump_ram4gb_${ro.boot.hardware.ram4gb}.prop

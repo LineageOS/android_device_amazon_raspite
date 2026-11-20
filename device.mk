@@ -21,6 +21,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     SettingsProviderOverlayRaspite
 
+# Properties
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/sku/odm,$(TARGET_COPY_OUT_ODM)/etc/prop)
+
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 30
 
