@@ -14,5 +14,10 @@ BOARD_SUPER_PARTITION_SIZE := 4005560320
 # Partitions (Dynamic)
 BOARD_MAIN_SIZE := 4003463168
 
+# Verified Boot
+BOARD_AVB_ROLLBACK_INDEX := 9
+BOARD_AVB_BOOT_ROLLBACK_INDEX := 10
+BOARD_AVB_RECOVERY_ROLLBACK_INDEX := 10
+
 # Inherit the proprietary files
 include vendor/amazon/raspite/BoardConfigVendor.mk
