@@ -1,5 +1,52 @@
 # Unpinned blobs from Amazon/raspite/raspite:11/RS8338.3339N/0030132734720:user/amz-p,release-keys
 
+# Audio
+vendor/firmware/aw87xxx_acf.bin
+vendor/lib/hw/audio.primary.mt8169.so
+vendor/lib/hw/fireos.hardware.audio@6.0-impl.so
+vendor/lib/hw/fireos.hardware.audiosignalprocessor@1.0-impl.so
+vendor/lib/hw/fireos.hardware.audiosignalprocessor@1.1-impl.so
+vendor/lib/libasp.so
+vendor/lib/libaudio_param_parser-vnd.so
+vendor/lib/libaudiocompensationfilter_vendor.so
+vendor/lib/libaudiocomponentengine_vendor.so
+vendor/lib/libaudiocustparam_vendor.so
+vendor/lib/libaudioprimarydevicehalifclient.so
+
+# Audio (Configs)
+vendor/etc/audio-algorithms/AFE.cfg
+vendor/etc/audio-algorithms/AFE_HardwareDef.cfg
+vendor/etc/audio-algorithms/asp.cfg
+vendor/etc/audio-algorithms/coefs_FilterBank.cfg
+vendor/etc/audio-algorithms/coefs_FilterBank_AnalysisSynthesis_1024.cfg
+vendor/etc/audio-algorithms/mod_ASR_Output_Gain.cfg
+vendor/etc/audio-algorithms/mod_Battery_Level_Handler.cfg
+vendor/etc/audio-algorithms/mod_FilterBank.cfg
+vendor/etc/audio-algorithms/mod_Full_band_output_limiter.cfg
+vendor/etc/audio-algorithms/mod_MBC.cfg
+vendor/etc/audio-algorithms/mod_MBCL.cfg
+vendor/etc/audio-algorithms/mod_MBL.cfg
+vendor/etc/audio-algorithms/mod_Parametric_EQ.cfg
+vendor/etc/audio-algorithms/mod_VOIP_FrequencyMaskingLiteRES.cfg
+vendor/etc/audio-algorithms/mod_VOIP_MicPreProcess.cfg
+vendor/etc/audio-algorithms/mod_VOIP_RecursiveMagnitudeEstimationNR.cfg
+vendor/etc/audio-algorithms/mod_VOIP_RxFullbandAGC.cfg
+vendor/etc/audio-algorithms/mod_VOIP_RxParametricEQ.cfg
+vendor/etc/audio-algorithms/mod_VOIP_TxAGC.cfg
+vendor/etc/audio-algorithms/mod_VOIP_VAEC.cfg
+vendor/etc/audio-algorithms/mod_Voice_Activity_Detector.cfg
+vendor/etc/audio-algorithms/path_ASR.cfg
+vendor/etc/audio-algorithms/path_Playback.cfg
+vendor/etc/audio-algorithms/path_playbackvoice.cfg
+vendor/etc/audio-algorithms/path_voice.cfg
+vendor/etc/audio_device.xml
+vendor/etc/audio_param/AudioParamOptions.xml
+vendor/etc/audio_param/RecordVol_AudioParam.xml
+vendor/etc/audio_param/VoIPVol_AudioParam.xml
+vendor/etc/audio_param/Volume_AudioParam.xml
+vendor/etc/audio_policy_volumes.xml
+vendor/etc/default_volume_tables.xml
+
 # Display
 vendor/lib/libaal_mtk.so
 vendor/lib/libdpframework.so
