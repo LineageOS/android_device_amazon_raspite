@@ -32,7 +32,8 @@ lib_fixups: lib_fixups_user_type = {
 
 blob_fixups: blob_fixups_user_type = {
     'vendor/bin/hw/camerahalserver': blob_fixup()
-        .remove_needed('libudf.so'),
+        .remove_needed('libudf.so')
+        .add_needed('libaemgr_shim.so'),
     ('vendor/lib/hw/audio.primary.mt8169.so', 'vendor/lib/libasp.so',
      'vendor/lib/libaudioprimarydevicehalifclient.so'): blob_fixup()
         .replace_needed('android.hardware.audio.common-util.so', 'android.hardware.audio.common-util-v30.so')
