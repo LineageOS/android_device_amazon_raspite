@@ -33,7 +33,6 @@ PRODUCT_COPY_FILES += \
 
 # Rootdir
 PRODUCT_PACKAGES += \
-    fstab.enableswap-base \
     init.raspite.rc
 
 # Shipping API level

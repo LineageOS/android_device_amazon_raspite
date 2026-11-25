@@ -4,12 +4,6 @@
 //
 
 prebuilt_etc {
-    name: "fstab.enableswap-base",
-    src: "etc/fstab.enableswap-base",
-    vendor: true,
-}
-
-prebuilt_etc {
     name: "init.raspite.rc",
     src: "etc/init.raspite.rc",
     sub_dir: "init",
