@@ -13,10 +13,6 @@ $(call inherit-product, frameworks/native/build/tablet-7in-xhdpi-2048-dalvik-hea
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 800
 
-# Kernel Modules
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/kernel/modules.load.recovery:$(TARGET_COPY_OUT_RECOVERY)/root/lib/modules/modules.load.recovery
-
 # Overlay
 PRODUCT_PACKAGES += \
     FrameworksResOverlayRaspite \
